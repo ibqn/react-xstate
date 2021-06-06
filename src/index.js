@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom'
 import App from './app'
 import reportWebVitals from './reportWebVitals'
 
+import '@fontsource/lato'
+import GlobalStyle from './components/global-style'
+
 ReactDOM.render(
   <React.StrictMode>
+    <GlobalStyle />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
